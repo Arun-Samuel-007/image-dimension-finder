@@ -1,0 +1,34 @@
+{
+  "name": "image_dimension_finder",
+  "version": "1.0.0",
+  "description": "Node API to find image dimension",
+  "main": "image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon image"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arun-Samuel-007/image-dimension-finder.git"
+  },
+  "keywords": [
+    "node",
+    "image",
+    "dimension",
+    "finder",
+    "size",
+    "calculator"
+  ],
+  "author": "Arun Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arun-Samuel-007/image-dimension-finder/issues"
+  },
+  "homepage": "https://github.com/Arun-Samuel-007/image-dimension-finder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "morgan": "^1.10.0",
+    "multipart": "^0.1.5"
+  }
+}
